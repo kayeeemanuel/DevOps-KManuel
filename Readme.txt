@@ -1,32 +1,41 @@
-Readme.txt
+Order Calculator
 
-# Build Instructions
+This is a simple Python application to calculate the total charges of a placed order at a restaurant based on the order type.
 
-To compile, test, and package the application, follow these steps:
+## Files
+- order_calculator.py: Contains the main application code.
+- test_order_calculator.py: Contains unit tests for the application.
+- build.sh: Script to clean, build, and test the application.
+- README.txt: This file.
 
-1. Ensure you have Python installed.
-2. Open a terminal and navigate to the project directory.
-3. Make the build script executable by running: `chmod +x build.sh`
-4. Run the build script by executing: `./build.sh`
+## Prerequisites
+- Python 3.x
+- unittest module (comes pre-installed with Python)
 
-The script will:
-- Compile the application (syntax check for Python).
-- Run all unit tests.
-- Package the application into a zip file named `hello_app.zip`.
+## Instructions
 
-If any step fails, the script will exit with an error message.
+1. Clone the repository:
+    git clone <repository-url>
 
+2. Navigate to the project directory:
+    cd order-management-system
 
-# Order Management System
+3. Make the build script executable:
+    chmod +x build.sh
 
-## Description
+4. Run the build script:
+    ./build.sh
 
-This is a simple order management system implemented in Python. It allows adding, viewing, and updating orders.
+This will perform the following steps:
+- Clean the build artifacts
+- Build (compile) the application
+- Run unit tests
 
-## Build and Test
+If the build and tests are successful, you will see a message indicating the completion of the process.
 
-To build and test the application, run:
+## Running the Application
 
-```sh
-make
+To run the application, execute the following command:
+    python3 order_calculator.py
 
+Follow the on-screen prompts to enter the order cost and order type, and the application will calculate and display the total amount to be paid.
