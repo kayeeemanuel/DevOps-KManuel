@@ -15,3 +15,18 @@ The script will:
 - Package the application into a zip file named `hello_app.zip`.
 
 If any step fails, the script will exit with an error message.
+
+
+# Order Management System
+
+## Description
+
+This is a simple order management system implemented in Python. It allows adding, viewing, and updating orders.
+
+## Build and Test
+
+To build and test the application, run:
+
+```sh
+make
+
