@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-print('Feature Y')
-=======
 print('Feature X')
->>>>>>> main
+
+print('Feature Y')
