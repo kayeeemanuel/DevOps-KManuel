@@ -1,4 +1,4 @@
-##**Order Calculator**
+**Order Calculator**
 
 This is a simple Python application to calculate the total charges of a placed order at a restaurant based on the order type.
 
