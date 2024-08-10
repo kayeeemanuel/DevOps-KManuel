@@ -41,5 +41,5 @@ To run the application, execute the following command:
 Follow the on-screen prompts to enter the order cost and order type, and the application will calculate and display the total amount to be paid.
 
 
-# This commit is to test changes in jenkins
+# Test for artifacts
 
