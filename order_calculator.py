@@ -14,6 +14,8 @@ def calculate_total_charges(order_cost, order_type):
 
     return round(total_amount, 2)
 
+# Input order cost
+
 if __name__ == "__main__":
     order_cost = float(input("Please enter the order cost in AUD: "))
     order_type = int(input("Please enter the order type (1 for dine-in, 2 for pick-up or 3 for delivery): "))
