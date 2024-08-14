@@ -1,6 +1,9 @@
 # order_calculator.py
 
 def calculate_total_charges(order_cost, order_type):
+    if order_cost < 0:
+        raise ValueError("Order cost cannot be negative.")
+
     if order_type == 1:  # dine-in
         service_charge = order_cost * 0.08
         total_amount = order_cost + service_charge
@@ -25,3 +28,4 @@ if __name__ == "__main__":
         print("Total amount to be paid: $", total_amount)
     except ValueError as e:
         print(e)
+
